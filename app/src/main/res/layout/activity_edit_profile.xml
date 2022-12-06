@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    android:padding="10dp"
+    tools:context=".EditProfileActivity">
+
+    <TextView
+        android:id="@+id/editProfileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/editProfile"
+        android:textColor="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/editProfileHeader"
+        android:layout_centerInParent="true"
+        android:src="@drawable/add_photo_icon" />
+
+    <TextView
+        android:id="@+id/changeImageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/profilePic"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:background="#92FFFFFF"
+        android:padding="5dp"
+        android:text="@string/changeImage"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="10sp" />
+
+
+    <EditText
+        android:id="@+id/firstNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilePic"
+        android:hint="@string/firstName"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintText"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/userIdTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstNameET"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintText"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/userEmailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userIdTV"
+        android:hint="@string/phoneNumber"
+        android:singleLine="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintText"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/buttonBackground"
+        android:text="@string/save"
+        android:textColor="@color/buttonText" />
+
+
+</RelativeLayout>

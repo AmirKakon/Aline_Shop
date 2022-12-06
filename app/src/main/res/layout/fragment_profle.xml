@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    tools:context="com.example.alineshop.HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/editProfileHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/viewProfile"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/editProfileHeader"
+            android:src="@drawable/add_photo_icon" />
+
+        <TextView
+            android:id="@+id/userIdTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilePic"
+            android:hint="Id"
+            android:inputType="textMultiLine"
+            android:singleLine="true"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintText"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userIdTV"
+            android:hint="@string/fullName"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textSize="18dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintText" />
+
+        <TextView
+            android:id="@+id/userEmailTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTV"
+            android:hint="@string/hintEmail"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintText"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/userPhoneNumberTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userEmailTV"
+            android:hint="@string/phoneNumber"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintText"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/editbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/buttonBackground"
+            android:text="edit"
+            android:textColor="@color/buttonText" />
+
+    </RelativeLayout>
+
+</FrameLayout>

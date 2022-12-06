@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Aline Shop</string>
+
+    <!-- Quick words -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="registration_complete">Registration Complete!</string>
+    <string name="login_complete">Login Successful!</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="ok">Ok</string>
+    <string name="empty_text"></string>
+    <string name="addImage">Add Image</string>
+    <string name="editProfile">Edit Profile:</string>
+    <string name="viewProfile">Profile Details:</string>
+
+    <!-- email / password -->
+    <string name="hintEmail">Email: user@name.com</string>
+    <string name="forgetPassword"><u>Forgot Password</u></string>
+    <string name="resetPassword"><u>Reset Password:</u> </string>
+    <string name="dialog_title_email_sent">Email sent</string>
+    <string name="dialog_message_email_sent">An email to reset your password has been sent. If you do not see the email in your inbox please check the spam folder.</string>
+    <string name="empty_email_error_message">Email is empty.</string>
+    <string name="empty_credentials">Empty Credentials</string>
+    <string name="password_too_short_error">Password too short, Must be at least 6 characters.</string>
+
+    <!-- User Info -->
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="fullName">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+
+    <!-- Other -->
+    <string name="registerTxt"><u>Register to Aline Shop</u>:</string>
+    <string name="changeImage">Change Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

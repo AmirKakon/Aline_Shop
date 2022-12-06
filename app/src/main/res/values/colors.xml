@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color palette -->
+    <color name="p_purple_main">#FFBB86FC</color>
+    <color name="p_purple_darker">#FF7660B0</color>
+    <color name="p_purple_lighter">#ffd5c5ff</color>
+    <color name="p_offwhite">#ffeae2ff</color>
+    <color name="p_white">#ffffffff</color>
+
+    <!-- Generic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#8f8c8c</color>
+    <color name="light_grey">#BCBBBB</color>
+    <color name="dark_grey">#6C6C6C</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#3F51B5</color>
+
+    <color name="colorPrimary">@color/p_purple_main</color>
+    <color name="colorPrimaryDark">@color/p_purple_darker</color>
+    <color name="colorAccent">@color/p_purple_lighter</color>
+    <color name="colorWhite">#fff</color>
+
+    <!-- text color-->
+    <color name="textColor">@color/black</color>
+    <color name="editTextBackground">@color/white</color>
+    <color name="hintText">@color/light_grey</color>
+
+    <!-- button color -->
+    <color name="buttonText">@color/black</color>
+    <color name="buttonBackground">@color/light_grey</color>
+
+    <!-- required -->
+    <color name="headerColor">@color/dark_grey</color>
+
+    <!--gradient color-->
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+
+    <!--icon Color-->
+    <color name="iconColor">#145798</color>
+</resources>

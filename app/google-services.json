@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365896925284",
+    "project_id": "aline-shop-7bdab",
+    "storage_bucket": "aline-shop-7bdab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365896925284:android:b300061e003bed860c9f71",
+        "android_client_info": {
+          "package_name": "com.example.alineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365896925284-0fh577ugu5kd2de8fn7hhu6lqmusu0rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXb8WaxQWASwQKeXHv9-P00XthsxAzpD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365896925284-0fh577ugu5kd2de8fn7hhu6lqmusu0rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
